@@ -72,7 +72,7 @@ for filename in boxes.keys():
         height = abs(height)
         starting_image = starting_image + 1
         print filename, x, y, width, height 
-        datafile.write("%s, %i, %i, %i, %i\n" % (filename, x, y, width, height))
+        datafile.write("%s 1 %i %i %i %i\n" % (filename, x, y, width, height))
 
 datafile.close()
 
