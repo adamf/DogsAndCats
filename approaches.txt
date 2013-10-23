@@ -1,0 +1,18 @@
+
+Multipass Dog vs Cat Identifier, using OpenCV
+
+1. Train the identifier to match a single known dog in the same image we trained with
+
+2. Train against a set of dogs looking directly at the camera
+
+3. Train against a set of dog profiles
+
+4. Repeat for cats 
+
+Possible options:
+* Cat ears are very useful identifiers
+
+Normalize histograms
+Crop faces
+
+
